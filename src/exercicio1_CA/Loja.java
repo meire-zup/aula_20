@@ -30,9 +30,14 @@ public class Loja {
             System.out.println("********************************");
 
         }
+
+
         System.out.println(produtos.indexOf(livro1));
 
-        if(livro1.equals(livro2)){
+        Produto produto1 = livro1;
+        Produto produto2 = livro2;
+
+        if(produto1.equals(produto2)){
             System.out.println("Produtos são iguais");
         } else {
             System.out.println("Produtos diferentes.");
