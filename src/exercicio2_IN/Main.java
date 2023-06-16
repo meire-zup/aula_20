@@ -5,20 +5,28 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
+        System.out.println("**********************************");
         System.out.println("TAXAS DE SERVIÇOS:");
-        System.out.println("Informe o tipo de serviço:");
+        System.out.println("Digite o número do tipo de serviço");
         System.out.println("1 - Conta Corrente");
         System.out.println("2 - Conta Poupança");
         System.out.println("3 - Seguro De Vida");
+        System.out.print("NÚMERO: ");
+
         int escolha = scanner.nextInt();
+
         Servicos servico;
+
         switch (escolha){
+
             case 1:
                 servico = new ContaCorrente("João da Silva", "000.000.000-00"
                 , "23456-78", 856.90);
                 servico.calcularTaxas();
                 break;
+
             case 2:
                 servico = new ContaPoupanca("João da Silva", "000.000.000-00"
                         , "23456-78", 856.90);
@@ -36,6 +44,7 @@ public class Main {
 
         }
 
+        System.out.println("**********************************");
 
     }
 

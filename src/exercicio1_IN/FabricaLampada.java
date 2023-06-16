@@ -6,6 +6,7 @@ public class FabricaLampada {
     private Fluorescente lampadaFluorescente;
 
     public Lampada construir(Lampada tipoLampada){
+
         System.out.println("Você construiu uma lâmpada.");
 
         return tipoLampada;

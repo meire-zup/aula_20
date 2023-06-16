@@ -6,6 +6,7 @@ public class Incandescente implements Lampada{
 
     @Override
     public String toString() {
+
         return "Incandescente{" +
                 "nome='" + nome + '\'' +
                 '}';

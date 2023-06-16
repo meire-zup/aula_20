@@ -8,16 +8,21 @@ public class Quadrado extends  Retangulo{
 
     @Override
     public Float calcularArea() {
+
         return super.calcularArea();
+
     }
 
     @Override
     public Float calcularPerimetro() {
+
         return super.calcularPerimetro();
+
     }
 
     @Override
     public String toString() {
+
         return "Quadrado";
     }
 }

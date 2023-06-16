@@ -5,6 +5,7 @@ public class Fluorescente implements Lampada{
 
     @Override
     public String toString() {
+
         return "Fluorescente{" +
                 "nome='" + nome + '\'' +
                 '}';

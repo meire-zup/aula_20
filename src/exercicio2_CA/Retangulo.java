@@ -6,14 +6,18 @@ public class Retangulo extends Forma{
     private Float altura;
 
     public Retangulo(Float base, Float altura) {
+
         super("Retângulo");
         this.base = base;
         this.altura = altura;
+
     }
 
     @Override
     public String toString() {
+
         return "Retângulo";
+
     }
 
     @Override

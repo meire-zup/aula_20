@@ -9,6 +9,7 @@ public class SeguroDeVida extends Servicos implements Tributos {
         super(nomeDoTitular, cpf);
         this.numeroApolice = numeroApolice;
         this.valorApolice = valorApolice;
+
     }
 
     @Override
@@ -19,6 +20,8 @@ public class SeguroDeVida extends Servicos implements Tributos {
 
     @Override
     public void calcularTaxas() {
+
         System.out.println("VALOR A SER PAGO DE TAXAS: "+ calcularTributos());
+
     }
 }
